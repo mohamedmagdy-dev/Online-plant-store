@@ -29,7 +29,7 @@ export default function Header({ itemsInCart = 0, headerTheme }) {
   const [isMobileNavClose, setIsMobileNavClose] = useState(true);
 
   return (
-    <header className={"pt-11.5 pb-11.5 absolute w-full "}>
+    <header className={"pt-11.5 pb-11.5 absolute w-full top-0 z-99"}>
       <div
         className={
           "container flex justify-between md:justify-center lg:justify-between bg-transparent items-center flex-wrap pr-4 pl-4 "
