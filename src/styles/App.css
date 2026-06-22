@@ -4,6 +4,13 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-mint: #2af598;
+  --color-sky: #009efd;
+  --color-slate: #566270;
+  --color-charcoal: #283444;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
 }
