@@ -17,34 +17,34 @@ import { useState } from "react";
 // Clsx
 import clsx from "clsx";
 
-export default function Header({ itemsInCart = 0 }) {
-  const [theme, setTheme] = useState("dark");
+const activeNavLink = ({ isActive }) => {
+  return clsx(
+    isActive
+      ? "bg-linear-to-r from-mint to-sky bg-clip-text text-transparent font-semibold"
+      : "",
+  );
+};
+
+export default function Header({ itemsInCart = 0, headerTheme }) {
   const [isMobileNavClose, setIsMobileNavClose] = useState(true);
-  const activeNavLink = ({ isActive }) => {
-    return clsx(
-      isActive
-        ? "bg-linear-to-r from-[#2AF598] to-[#009EFD] bg-clip-text text-transparent font-semibold"
-        : "",
-    );
-  };
 
   return (
-    <header className="pt-11.5 pb-11.5 relative">
+    <header className={"pt-11.5 pb-11.5 absolute w-full "}>
       <div
-        className={clsx(
-          `container ${theme == "dark" ? "bg-black" : ""} flex justify-between md:justify-center lg:justify-between  items-center flex-wrap pr-4 pl-4 `,
-        )}
+        className={
+          "container flex justify-between md:justify-center lg:justify-between bg-transparent items-center flex-wrap pr-4 pl-4 "
+        }
       >
         <Link to="/">
           <img
-            src={theme === "dark" ? storeLogoLight : storeLogoDark}
+            src={headerTheme === "dark" ? storeLogoLight : storeLogoDark}
             alt="store Logo"
           />
         </Link>
         <nav
           className={clsx(
             "hidden md:flex  gap-21.5 text-2xl font-normal ",
-            theme == "dark" ? "text-white" : "black",
+            headerTheme === "dark" ? "text-white" : "text-black",
           )}
         >
           <NavLink className={activeNavLink} to="/">
@@ -62,10 +62,10 @@ export default function Header({ itemsInCart = 0 }) {
         </nav>
         <Link to="/cart" className="md:ml-21.5 lg:ml-0 relative">
           <img
-            src={theme === "dark" ? bagIconLight : bagIconDark}
+            src={headerTheme === "dark" ? bagIconLight : bagIconDark}
             alt="Cart item Icon"
           />
-          <span className="absolute -top-1.5 -right-1.5 flex items-center justify-center rounded-full w-5.25 h-5.25 bg-linear-to-r from-[#2AF598] to-[#009EFD] text-white">
+          <span className="absolute -top-1.5 -right-1.5 flex items-center justify-center rounded-full w-5.25 h-5.25 bg-linear-to-r from-mint to-sky text-white">
             {itemsInCart}
           </span>
         </Link>
@@ -93,19 +93,40 @@ export default function Header({ itemsInCart = 0 }) {
         >
           <img className="w-6" src={cancelIcon} alt="cancel Icon " />
         </button>
-        <NavLink className={"pt-5 pb-5 border-b w-full text-center"} to="/">
+        <NavLink
+          className={"pt-5 pb-5 border-b w-full text-center"}
+          to="/"
+          onClick={() => {
+            setIsMobileNavClose(true);
+          }}
+        >
           Home
         </NavLink>
-        <NavLink className={"pt-5 pb-5 border-b w-full text-center"} to="/shop">
+        <NavLink
+          className={"pt-5 pb-5 border-b w-full text-center"}
+          to="/shop"
+          onClick={() => {
+            setIsMobileNavClose(true);
+          }}
+        >
           Shop
         </NavLink>
         <NavLink
           className={"pt-5 pb-5 border-b w-full text-center"}
           to="/about-us"
+          onClick={() => {
+            setIsMobileNavClose(true);
+          }}
         >
           About Us
         </NavLink>
-        <NavLink className={"pt-5 pb-5 w-full text-center"} to="/contact">
+        <NavLink
+          className={"pt-5 pb-5 w-full text-center"}
+          to="/contact"
+          onClick={() => {
+            setIsMobileNavClose(true);
+          }}
+        >
           Contact
         </NavLink>
       </nav>
