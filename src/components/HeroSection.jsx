@@ -14,19 +14,19 @@ export default function HeroSection() {
       className="w-full min-h-352.5 bg-cover bg-no-repeat pt-5.5 text-white relative"
       style={{ backgroundImage: `url(${roomBg})` }}
     >
-      <h1 className="font-bold text-[82px] text-center pt-45.5">
+      <h1 className="font-bold text-5xl md:text-6xl lg:text-[82px] text-center pt-45.5">
         Bring Serenity to Your Place <br /> With Interior Plants
       </h1>
-      <p className="text-center text-2xl/normal mt-6 mb-10.5">
+      <p className="text-center text-lg md:text-xl/normal lg:text-2xl/normal mt-6 mb-10.5">
         find your dream plant for you home decoration
         <br /> with us, and we will make it happen.
       </p>
-      <div className="m-auto relative w-fit">
+      <div className="m-auto relative  md:w-fit px-2">
         <Input placeHolder="Search plant" />
         <RoundedButton
           buttonIcon={searchIcon}
           altText="Search Icon"
-          style="absolute right-3 top-2.5"
+          style="absolute right-5 top-2.5"
         />
       </div>
       <div className="absolute bg-linear-to-b from-white/0 to-white w-full bottom-0 h-52"></div>

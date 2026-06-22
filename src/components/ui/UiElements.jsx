@@ -7,7 +7,7 @@ export function Input({ placeHolder = "" }) {
       <input
         type="text"
         placeholder={placeHolder}
-        className="text-white rounded-[50px] text-[20px] py-6 px-7.5 border border-white w-115.75 h-17.75 outline-white"
+        className="text-white rounded-[50px] text-[20px] py-6 px-7.5 border border-white w-full md:w-115.75 h-17.75 outline-white"
       />
     </div>
   );
