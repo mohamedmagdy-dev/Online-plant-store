@@ -5,7 +5,7 @@ import supportIcon from "../assets/icons/supportIcon.svg";
 export default function BenefitSection() {
   return (
     <section className="bg-white">
-      <div className="container flex items-center justify-between flex-wrap gap-20 py-25.5 px-5">
+      <div className="container flex items-center justify-between flex-wrap gap-20 py-35 px-5">
         <div className="benefit flex gap-8">
           <img src={freeShappingIcon} alt="free shapping Icon" />
           <div className="info">
