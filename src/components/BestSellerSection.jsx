@@ -15,9 +15,9 @@ import ItemCard from "./ui/ItemCard";
 export default function BestSellerSection() {
   return (
     <section className="pb-35">
-      <div className="container px-5 flex gap-9.5 justify-center items-center flex-wrap">
+      <div className="container px-5 flex gap-9.5 justify-center 2xl:justify-between items-center flex-wrap">
         <div className="info ">
-          <h2 className="text-[64px] text-abyss font-medium mb-10.5">
+          <h2 className="text-5xl md:text-[64px] text-abyss font-medium mb-10.5">
             Best Seller
             <br /> Product
           </h2>
