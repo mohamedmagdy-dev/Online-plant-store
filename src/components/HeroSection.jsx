@@ -11,7 +11,7 @@ import { Input, RoundedButton } from "./ui/UiElements";
 export default function HeroSection() {
   return (
     <section
-      className="w-full min-h-352.5 bg-cover bg-no-repeat pt-5.5 text-white relative"
+      className="w-full h-screen lg:min-h-320.5 bg-cover bg-no-repeat pt-5.5 text-white relative"
       style={{ backgroundImage: `url(${roomBg})` }}
     >
       <h1 className="font-bold text-5xl md:text-6xl lg:text-[82px] text-center pt-45.5">
