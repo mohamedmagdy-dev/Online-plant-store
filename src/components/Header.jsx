@@ -1,12 +1,10 @@
 // Icons
 import mobileMenuIcon from "../assets/icons/mobileMenuIcon.png";
 import bagIconLight from "../assets/icons/bagLight.svg";
-import bagIconDark from "../assets/icons/bagDark.svg";
 import cancelIcon from "../assets/icons/cancel.png";
 
 // imgs
 import storeLogoLight from "../assets/imgs/storeLogoLight.svg";
-import storeLogoDark from "../assets/imgs/storeLogoDark.svg";
 
 // React Router
 import { Link, NavLink } from "react-router";

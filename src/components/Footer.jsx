@@ -4,7 +4,7 @@ import { Input, CurvedButton } from "./ui/UiElements";
 export default function Footer() {
   return (
     <footer className="py-30 bg-linear-to-r from-slate to-charcoal">
-      <div className="container px-5">
+      <div className="container px-4">
         <div className="pb-13 border-b border-white flex justify-between items-center gap-30.5 max-xl:flex-col">
           <div className="news-letter">
             <h2 className="font-medium text-5xl text-white mb-6.25  max-xl:text-center">

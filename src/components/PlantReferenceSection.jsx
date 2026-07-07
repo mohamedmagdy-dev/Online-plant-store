@@ -17,7 +17,7 @@ export default function PlantReferenceSection() {
           make your home so comfortable with refreshing plants
         </p>
       </div>
-      <div className="container px-5 min-h-248.75 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="container px-4 min-h-248.75 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex flex-col">
           <Link
             to={"/"}

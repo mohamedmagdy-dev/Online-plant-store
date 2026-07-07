@@ -16,7 +16,7 @@ export function Input({ placeHolder = "" }) {
   );
 }
 
-export function RoundedButton({buttonIcon, altText, style = ""}) {
+export function RoundedButton({ buttonIcon, altText, style = "" }) {
   return (
     <button
       className={clsx(
@@ -29,7 +29,7 @@ export function RoundedButton({buttonIcon, altText, style = ""}) {
   );
 }
 
-export function CurvedButton({buttonContent ="", style = ""}) {
+export function CurvedButton({ buttonContent = "", style = "" }) {
   return (
     <button
       className={clsx(
@@ -50,4 +50,25 @@ export function Rate({ rate }) {
   }
 
   return result;
+}
+
+export function PriceSlider({
+  min = 0,
+  max = 100,
+  step = 1,
+  value = 0,
+  style = "",
+  handleChange = () => {},
+}) {
+  return (
+    <input
+      className={clsx(style)}
+      type="range"
+      min={min}
+      max={max}
+      step={step}
+      value={value}
+      onChange={handleChange}
+    />
+  );
 }
