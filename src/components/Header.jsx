@@ -15,6 +15,9 @@ import { useState } from "react";
 // Clsx
 import clsx from "clsx";
 
+//redux
+import { useSelector } from "react-redux";
+
 const activeNavLink = ({ isActive }) => {
   return clsx(
     isActive
@@ -23,26 +26,32 @@ const activeNavLink = ({ isActive }) => {
   );
 };
 
-export default function Header({ itemsInCart = 0, isHeaderTransparent }) {
+export default function Header({isHeaderTransparent }) {
   const [isMobileNavClose, setIsMobileNavClose] = useState(true);
 
+  const productQuantity = useSelector((state) => state.cart.quantity);
+
   return (
-    <header className={clsx("pt-11.5 pb-11.5",isHeaderTransparent ?  "absolute w-full top-0 z-99": "bg-linear-to-r from-slate to-charcoal")}>
+    <header
+      className={clsx(
+        "pt-11.5 pb-11.5",
+        isHeaderTransparent
+          ? "absolute w-full top-0 z-99"
+          : "bg-linear-to-r from-slate to-charcoal",
+      )}
+    >
       <div
         className={
           "container flex justify-between md:justify-center lg:justify-between bg-transparent items-center flex-wrap pr-4 pl-4 "
         }
       >
         <Link to="/">
-          <img
-            src={storeLogoLight}
-            alt="store Logo"
-          />
+          <img src={storeLogoLight} alt="store Logo" />
         </Link>
         <nav
           className={clsx(
             "hidden md:flex  gap-21.5 text-2xl font-normal ",
-            "text-white"
+            "text-white",
           )}
         >
           <NavLink className={activeNavLink} to="/">
@@ -59,12 +68,9 @@ export default function Header({ itemsInCart = 0, isHeaderTransparent }) {
           </NavLink>
         </nav>
         <Link to="/cart" className="md:ml-21.5 lg:ml-0 relative">
-          <img
-            src={bagIconLight }
-            alt="Cart item Icon"
-          />
+          <img src={bagIconLight} alt="Cart item Icon" />
           <span className="absolute -top-1.5 -right-1.5 flex items-center justify-center rounded-full w-5.25 h-5.25 bg-linear-to-r from-mint to-sky text-white">
-            {itemsInCart}
+            {productQuantity}
           </span>
         </Link>
         <button
