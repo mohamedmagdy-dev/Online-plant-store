@@ -16,13 +16,13 @@ import { Routes, Route } from "react-router";
 import { useState } from "react";
 
 export default function App() {
-  const [headerTheme, setHeaderTheme] = useState("dark");
+  const [isHeaderTransparent, setIsHeaderTransparent] = useState(true);
   return (
     <>
-      <Header headerTheme={headerTheme} />
+      <Header isHeaderTransparent={isHeaderTransparent} />
       <Routes>
-        <Route path="/" element={<Home setHeaderTheme={setHeaderTheme}/>} />
-        <Route path="/shop" element={<Shop setHeaderTheme={setHeaderTheme}/>} />
+        <Route path="/" element={<Home setIsHeaderTransparent={setIsHeaderTransparent}/>} />
+        <Route path="/shop" element={<Shop setIsHeaderTransparent={setIsHeaderTransparent}/>} />
       </Routes>
       <Footer />
     </>

@@ -5,9 +5,13 @@ import BestSellerSection from "../components/BestSellerSection";
 import PlantReferenceSection from "../components/PlantReferenceSection";
 import PlantsCareSection from "../components/PlantsCareSection";
 
-export default function Home({setHeaderTheme}) {
-  setHeaderTheme("dark");
-  return (
+//react
+import { useEffect } from "react";
+
+export default function Home({setIsHeaderTransparent}) {
+  useEffect(() => {
+    setIsHeaderTransparent(true);
+  }, []);  return (
     <main>
       <HeroSection />
       <BenefitSection />

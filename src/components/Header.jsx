@@ -25,11 +25,11 @@ const activeNavLink = ({ isActive }) => {
   );
 };
 
-export default function Header({ itemsInCart = 0, headerTheme }) {
+export default function Header({ itemsInCart = 0, isHeaderTransparent }) {
   const [isMobileNavClose, setIsMobileNavClose] = useState(true);
 
   return (
-    <header className={"pt-11.5 pb-11.5 absolute w-full top-0 z-99"}>
+    <header className={clsx("pt-11.5 pb-11.5",isHeaderTransparent ?  "absolute w-full top-0 z-99": "bg-linear-to-r from-slate to-charcoal")}>
       <div
         className={
           "container flex justify-between md:justify-center lg:justify-between bg-transparent items-center flex-wrap pr-4 pl-4 "
