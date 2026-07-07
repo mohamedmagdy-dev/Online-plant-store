@@ -23,10 +23,6 @@ export default function Shop({ setIsHeaderTransparent }) {
     setIsHeaderTransparent(false);
   }, []);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
   if (error) {
     return <div>Error: {error}</div>;
   }
@@ -40,7 +36,7 @@ export default function Shop({ setIsHeaderTransparent }) {
             Showing All Products 1-9 of 24 Product
           </p>
           <div className="flex flex-wrap gap-x-8 gap-y-20 justify-center xl:justify-end">
-            {!loading && products.products.map((product) => {
+            {!loading && products.map((product) => {
               return (
                 <ProductsCard
                   key={product.id}
@@ -48,6 +44,7 @@ export default function Shop({ setIsHeaderTransparent }) {
                   title={product.name}
                   price={product.price}
                   plantImg={product.image}
+                  product={product}
                 />
               );
             })}

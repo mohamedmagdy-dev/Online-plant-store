@@ -16,9 +16,10 @@ export function Input({ placeHolder = "" }) {
   );
 }
 
-export function RoundedButton({ buttonIcon, altText, style = "" }) {
+export function RoundedButton({ buttonIcon, altText, style = "",onClick=()=>{} }) {
   return (
     <button
+    onClick={onClick}
       className={clsx(
         "cursor-pointer w-12.5 h-12.5 rounded-full bg-linear-to-r from-mint to-sky flex justify-center items-center",
         style,
