@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 
 // Page
 import Home from "./pages/Home";
+import Shop from "./pages/Shop";
 
 // Routing
 import { Routes, Route } from "react-router";
@@ -20,7 +21,8 @@ export default function App() {
     <>
       <Header headerTheme={headerTheme} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home setHeaderTheme={setHeaderTheme}/>} />
+        <Route path="/shop" element={<Shop setHeaderTheme={setHeaderTheme}/>} />
       </Routes>
       <Footer />
     </>

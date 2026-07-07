@@ -37,14 +37,14 @@ export default function Header({ itemsInCart = 0, headerTheme }) {
       >
         <Link to="/">
           <img
-            src={headerTheme === "dark" ? storeLogoLight : storeLogoDark}
+            src={storeLogoLight}
             alt="store Logo"
           />
         </Link>
         <nav
           className={clsx(
             "hidden md:flex  gap-21.5 text-2xl font-normal ",
-            headerTheme === "dark" ? "text-white" : "text-black",
+            "text-white"
           )}
         >
           <NavLink className={activeNavLink} to="/">
@@ -62,7 +62,7 @@ export default function Header({ itemsInCart = 0, headerTheme }) {
         </nav>
         <Link to="/cart" className="md:ml-21.5 lg:ml-0 relative">
           <img
-            src={headerTheme === "dark" ? bagIconLight : bagIconDark}
+            src={bagIconLight }
             alt="Cart item Icon"
           />
           <span className="absolute -top-1.5 -right-1.5 flex items-center justify-center rounded-full w-5.25 h-5.25 bg-linear-to-r from-mint to-sky text-white">
