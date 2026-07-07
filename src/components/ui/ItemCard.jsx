@@ -1,9 +1,8 @@
 // Icon
-import starIcon from "../../assets/icons/starIcon.png";
 import pluseIcon from "../../assets/icons/pluse-icon.svg";
 
 // Ui elements
-import { RoundedButton } from "./UiElements";
+import { RoundedButton, Rate } from "./UiElements";
 
 export default function ItemCard({
   rate = 5,
@@ -37,12 +36,3 @@ export default function ItemCard({
   );
 }
 
-function Rate({ rate }) {
-  let result = [];
-
-  for (let i = 1; i <= Math.ceil(rate); i++) {
-    result.push(<img key={i} src={starIcon} alt="Star Icon" />);
-  }
-
-  return result;
-}

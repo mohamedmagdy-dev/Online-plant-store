@@ -1,6 +1,9 @@
 //clsx
 import clsx from "clsx";
 
+// Icons
+import starIcon from "../../assets/icons/starIcon.png";
+
 export function Input({ placeHolder = "" }) {
   return (
     <div className="relative">
@@ -37,4 +40,14 @@ export function CurvedButton({buttonContent ="", style = ""}) {
       {buttonContent}
     </button>
   );
+}
+
+export function Rate({ rate }) {
+  let result = [];
+
+  for (let i = 1; i <= Math.ceil(rate); i++) {
+    result.push(<img key={i} src={starIcon} alt="Star Icon" />);
+  }
+
+  return result;
 }
