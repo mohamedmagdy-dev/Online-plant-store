@@ -13,12 +13,10 @@ export default function ProductsFilter() {
 
   const handleMinPrice = (e) => {
     setMinPrice(Math.min(Number(e.target.value), maxPrice));
-    console.log(minPrice);
   };
 
-  const handelMaxPrice = (e) => {
+  const handleMaxPrice = (e) => {
     setMaxPrice(Math.max(Number(e.target.value), minPrice));
-    console.log(maxPrice);
   };
 
   return (
@@ -64,7 +62,7 @@ export default function ProductsFilter() {
                 max={MAX_PRICE}
                 step={1}
                 value={maxPrice}
-                handleChange={handelMaxPrice}
+                handleChange={handleMaxPrice}
               />
             </div>
           </div>
