@@ -10,7 +10,7 @@ import TablerTemperatureIcon from "../assets/icons/tabler_temperature.png";
 export default function PlantsCareSection() {
   return (
     <section className="pb-35">
-      <div className="container px-5 flex max-lg:flex-col justify-between items-center gap-10">
+      <div className="container px-4 flex max-lg:flex-col justify-between items-center gap-10">
         <div className="info">
           <h2 className="font-medium text-5xl md:text-[64px] text-abyss mb-7">
             How to care <br /> for plants

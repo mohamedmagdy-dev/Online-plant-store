@@ -1,0 +1,2384 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Croton Petra",
+      "category": "guest_room",
+      "price": 427.25,
+      "currency": "EGP",
+      "rating": 3.8,
+      "inStock": true,
+      "stockQuantity": 18,
+      "description": "Bring life to your guest room with this beautiful Croton Petra. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Fatima A.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 2,
+      "name": "Calathea Orbifolia",
+      "category": "guest_room",
+      "price": 296.48,
+      "currency": "EGP",
+      "rating": 4.5,
+      "inStock": true,
+      "stockQuantity": 34,
+      "description": "Elevate the atmosphere of your guest room with this elegant Calathea Orbifolia. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Mona E.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 4,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 3,
+      "name": "Dracaena Marginata",
+      "category": "living_room",
+      "price": 926.0,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 53,
+      "description": "Elevate the atmosphere of your living room with this elegant Dracaena Marginata. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "David L.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 4,
+      "name": "Polka Dot Plant",
+      "category": "guest_room",
+      "price": 877.48,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 39,
+      "description": "This Polka Dot Plant is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a guest room, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Emily R.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 4,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 4,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 5,
+      "name": "Gardenia",
+      "category": "bed_room",
+      "price": 667.59,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 42,
+      "description": "This Gardenia is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Fatima A.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Emily R.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 6,
+      "name": "Weeping Fig",
+      "category": "living_room",
+      "price": 608.41,
+      "currency": "EGP",
+      "rating": 5.0,
+      "inStock": true,
+      "stockQuantity": 41,
+      "description": "Elevate the atmosphere of your living room with this elegant Weeping Fig. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "James K.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 7,
+      "name": "Kentia Palm",
+      "category": "living_room",
+      "price": 321.69,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 60,
+      "description": "Elevate the atmosphere of your living room with this elegant Kentia Palm. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Kevin S.",
+          "rating": 4,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 8,
+      "name": "Spider Plant",
+      "category": "guest_room",
+      "price": 790.66,
+      "currency": "EGP",
+      "rating": 3.3,
+      "inStock": true,
+      "stockQuantity": 29,
+      "description": "A stunning Spider Plant that brings a fresh, natural touch to any guest room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "James K.",
+          "rating": 2,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 9,
+      "name": "Bird of Paradise",
+      "category": "living_room",
+      "price": 356.76,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "Bring life to your living room with this beautiful Bird of Paradise. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Grace N.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "James K.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 10,
+      "name": "Golden Peace Lily",
+      "category": "bed_room",
+      "price": 600.5,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 24,
+      "description": "Elevate the atmosphere of your bedroom with this elegant Golden Peace Lily. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 11,
+      "name": "Variegated Prayer Plant Maranta",
+      "category": "guest_room",
+      "price": 891.09,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 58,
+      "description": "The Variegated Prayer Plant Maranta is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your guest room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 4,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 12,
+      "name": "Chinese Evergreen",
+      "category": "guest_room",
+      "price": 627.69,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 18,
+      "description": "Elevate the atmosphere of your guest room with this elegant Chinese Evergreen. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 13,
+      "name": "Majesty Palm",
+      "category": "living_room",
+      "price": 525.48,
+      "currency": "EGP",
+      "rating": 4.7,
+      "inStock": true,
+      "stockQuantity": 12,
+      "description": "Bring life to your living room with this beautiful Majesty Palm. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 14,
+      "name": "String of Pearls",
+      "category": "guest_room",
+      "price": 572.84,
+      "currency": "EGP",
+      "rating": 3.6,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "A stunning String of Pearls that brings a fresh, natural touch to any guest room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Grace N.",
+          "rating": 4,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 2,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 15,
+      "name": "Cast Iron Plant",
+      "category": "living_room",
+      "price": 785.86,
+      "currency": "EGP",
+      "rating": 4.5,
+      "inStock": true,
+      "stockQuantity": 60,
+      "description": "Bring life to your living room with this beautiful Cast Iron Plant. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Fatima A.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 16,
+      "name": "Air Plant Tillandsia",
+      "category": "guest_room",
+      "price": 411.45,
+      "currency": "EGP",
+      "rating": 4.5,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "A stunning Air Plant Tillandsia that brings a fresh, natural touch to any guest room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 4,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 17,
+      "name": "Peace Lily",
+      "category": "bed_room",
+      "price": 422.3,
+      "currency": "EGP",
+      "rating": 4.7,
+      "inStock": true,
+      "stockQuantity": 47,
+      "description": "Elevate the atmosphere of your bedroom with this elegant Peace Lily. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 18,
+      "name": "Baby Rubber Plant",
+      "category": "guest_room",
+      "price": 630.88,
+      "currency": "EGP",
+      "rating": 5.0,
+      "inStock": true,
+      "stockQuantity": 17,
+      "description": "The Baby Rubber Plant is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your guest room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Mona E.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Emily R.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 19,
+      "name": "Snake Plant Laurentii",
+      "category": "bed_room",
+      "price": 158.36,
+      "currency": "EGP",
+      "rating": 4.5,
+      "inStock": true,
+      "stockQuantity": 33,
+      "description": "This Snake Plant Laurentii is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Bright, indirect sunlight",
+        "water": "Water once a week, allow soil to dry between waterings",
+        "humidity": "Moderate humidity preferred",
+        "temperature": "18-27°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 20,
+      "name": "Jasmine Vine",
+      "category": "bed_room",
+      "price": 474.19,
+      "currency": "EGP",
+      "rating": 4.8,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "Elevate the atmosphere of your bedroom with this elegant Jasmine Vine. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Michael B.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 4,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 21,
+      "name": "Classic Areca Palm",
+      "category": "living_room",
+      "price": 570.37,
+      "currency": "EGP",
+      "rating": 4.5,
+      "inStock": true,
+      "stockQuantity": 13,
+      "description": "The Classic Areca Palm is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your living room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "James K.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 22,
+      "name": "Lemon Balm",
+      "category": "bed_room",
+      "price": 142.38,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 9,
+      "description": "Elevate the atmosphere of your bedroom with this elegant Lemon Balm. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Grace N.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Emily R.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 23,
+      "name": "Deluxe Bird of Paradise",
+      "category": "living_room",
+      "price": 908.18,
+      "currency": "EGP",
+      "rating": 4.5,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "A stunning Deluxe Bird of Paradise that brings a fresh, natural touch to any living room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Bright, indirect sunlight",
+        "water": "Water once a week, allow soil to dry between waterings",
+        "humidity": "Moderate humidity preferred",
+        "temperature": "18-27°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Grace N.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 24,
+      "name": "Yucca Cane",
+      "category": "living_room",
+      "price": 597.91,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 32,
+      "description": "A stunning Yucca Cane that brings a fresh, natural touch to any living room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Mona E.",
+          "rating": 3,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 3,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 25,
+      "name": "Peperomia Obtusifolia",
+      "category": "guest_room",
+      "price": 921.34,
+      "currency": "EGP",
+      "rating": 4.4,
+      "inStock": true,
+      "stockQuantity": 18,
+      "description": "This Peperomia Obtusifolia is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a guest room, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 26,
+      "name": "Valerian Plant",
+      "category": "bed_room",
+      "price": 402.48,
+      "currency": "EGP",
+      "rating": 4.8,
+      "inStock": true,
+      "stockQuantity": 42,
+      "description": "Bring life to your bedroom with this beautiful Valerian Plant. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Emily R.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 27,
+      "name": "Umbrella Tree",
+      "category": "living_room",
+      "price": 579.38,
+      "currency": "EGP",
+      "rating": 5.0,
+      "inStock": true,
+      "stockQuantity": 58,
+      "description": "Bring life to your living room with this beautiful Umbrella Tree. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 28,
+      "name": "Zebra Plant",
+      "category": "guest_room",
+      "price": 308.81,
+      "currency": "EGP",
+      "rating": 5.0,
+      "inStock": true,
+      "stockQuantity": 8,
+      "description": "This Zebra Plant is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a guest room, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 29,
+      "name": "Giant Wandering Jew",
+      "category": "guest_room",
+      "price": 214.69,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 31,
+      "description": "Bring life to your guest room with this beautiful Giant Wandering Jew. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Mona E.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 30,
+      "name": "Rubber Plant",
+      "category": "living_room",
+      "price": 776.31,
+      "currency": "EGP",
+      "rating": 3.8,
+      "inStock": true,
+      "stockQuantity": 10,
+      "description": "Elevate the atmosphere of your living room with this elegant Rubber Plant. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Emily R.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 2,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 31,
+      "name": "Areca Palm",
+      "category": "living_room",
+      "price": 264.27,
+      "currency": "EGP",
+      "rating": 4.7,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "This Areca Palm is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a living room, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Michael B.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 32,
+      "name": "Mini English Lavender",
+      "category": "bed_room",
+      "price": 773.9,
+      "currency": "EGP",
+      "rating": 5.0,
+      "inStock": true,
+      "stockQuantity": 22,
+      "description": "This Mini English Lavender is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 33,
+      "name": "Deluxe Golden Pothos",
+      "category": "guest_room",
+      "price": 529.85,
+      "currency": "EGP",
+      "rating": 3.3,
+      "inStock": true,
+      "stockQuantity": 16,
+      "description": "Elevate the atmosphere of your guest room with this elegant Deluxe Golden Pothos. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "James K.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 2,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 34,
+      "name": "Chinese Money Plant",
+      "category": "living_room",
+      "price": 660.75,
+      "currency": "EGP",
+      "rating": 4.8,
+      "inStock": true,
+      "stockQuantity": 54,
+      "description": "The Chinese Money Plant is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your living room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Michael B.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Grace N.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 4,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 35,
+      "name": "ZZ Plant",
+      "category": "bed_room",
+      "price": 804.69,
+      "currency": "EGP",
+      "rating": 4.7,
+      "inStock": true,
+      "stockQuantity": 23,
+      "description": "The ZZ Plant is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your bedroom that requires only occasional watering.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 36,
+      "name": "Anthurium Andraeanum",
+      "category": "guest_room",
+      "price": 220.78,
+      "currency": "EGP",
+      "rating": 3.5,
+      "inStock": true,
+      "stockQuantity": 35,
+      "description": "The Anthurium Andraeanum is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your guest room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Michael B.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 3,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 37,
+      "name": "Prayer Plant Maranta",
+      "category": "guest_room",
+      "price": 499.13,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 33,
+      "description": "The Prayer Plant Maranta is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your guest room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Mona E.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Emily R.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 38,
+      "name": "Split-Leaf Philodendron",
+      "category": "living_room",
+      "price": 406.45,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 34,
+      "description": "Elevate the atmosphere of your living room with this elegant Split-Leaf Philodendron. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Hana Y.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 39,
+      "name": "Monstera Deliciosa",
+      "category": "living_room",
+      "price": 460.28,
+      "currency": "EGP",
+      "rating": 3.8,
+      "inStock": true,
+      "stockQuantity": 52,
+      "description": "A stunning Monstera Deliciosa that brings a fresh, natural touch to any living room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Amina T.",
+          "rating": 4,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 2,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        },
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 40,
+      "name": "Golden Pothos",
+      "category": "guest_room",
+      "price": 932.02,
+      "currency": "EGP",
+      "rating": 4.0,
+      "inStock": true,
+      "stockQuantity": 41,
+      "description": "A stunning Golden Pothos that brings a fresh, natural touch to any guest room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Hana Y.",
+          "rating": 3,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 41,
+      "name": "Bamboo Palm",
+      "category": "bed_room",
+      "price": 265.31,
+      "currency": "EGP",
+      "rating": 4.8,
+      "inStock": true,
+      "stockQuantity": 59,
+      "description": "This Bamboo Palm is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Grace N.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 42,
+      "name": "Wandering Jew",
+      "category": "guest_room",
+      "price": 316.88,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 45,
+      "description": "The Wandering Jew is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your guest room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Bright, indirect sunlight",
+        "water": "Water once a week, allow soil to dry between waterings",
+        "humidity": "Moderate humidity preferred",
+        "temperature": "18-27°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Grace N.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 3,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 43,
+      "name": "Classic Parlor Palm",
+      "category": "living_room",
+      "price": 774.55,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": true,
+      "stockQuantity": 22,
+      "description": "A stunning Classic Parlor Palm that brings a fresh, natural touch to any living room. Known for its lush foliage and easy-going nature, it thrives with minimal care and adapts well to indoor lighting conditions.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Grace N.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 3,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Nourhan S.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 44,
+      "name": "Nerve Plant Fittonia",
+      "category": "guest_room",
+      "price": 878.66,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "This Nerve Plant Fittonia is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a guest room, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Robert G.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 2,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 45,
+      "name": "Aloe Vera",
+      "category": "bed_room",
+      "price": 140.77,
+      "currency": "EGP",
+      "rating": 4.4,
+      "inStock": true,
+      "stockQuantity": 51,
+      "description": "This Aloe Vera is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 2,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 46,
+      "name": "Chamomile Plant",
+      "category": "bed_room",
+      "price": 663.59,
+      "currency": "EGP",
+      "rating": 4.3,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "This Chamomile Plant is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "James K.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 2,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        },
+        {
+          "reviewer": "David L.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 47,
+      "name": "Lucky Bamboo",
+      "category": "bed_room",
+      "price": 940.72,
+      "currency": "EGP",
+      "rating": 4.0,
+      "inStock": true,
+      "stockQuantity": 6,
+      "description": "Bring life to your bedroom with this beautiful Lucky Bamboo. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Amina T.",
+          "rating": 4,
+          "comment": "Nice plant overall, though it was a bit smaller than I expected."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 3,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Layla H.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Grace N.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 48,
+      "name": "Passion Flower",
+      "category": "bed_room",
+      "price": 417.34,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 60,
+      "description": "This Passion Flower is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Bright, indirect sunlight",
+        "water": "Water once a week, allow soil to dry between waterings",
+        "humidity": "Moderate humidity preferred",
+        "temperature": "18-27°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Grace N.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 4,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 49,
+      "name": "Corn Plant",
+      "category": "living_room",
+      "price": 500.18,
+      "currency": "EGP",
+      "rating": 3.7,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "Elevate the atmosphere of your living room with this elegant Corn Plant. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "James K.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        },
+        {
+          "reviewer": "Omar F.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 50,
+      "name": "English Lavender",
+      "category": "bed_room",
+      "price": 645.45,
+      "currency": "EGP",
+      "rating": 4.4,
+      "inStock": true,
+      "stockQuantity": 47,
+      "description": "Bring life to your bedroom with this beautiful English Lavender. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Mona E.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Emily R.",
+          "rating": 3,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Hana Y.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 51,
+      "name": "Fiddle Leaf Fig",
+      "category": "living_room",
+      "price": 911.48,
+      "currency": "EGP",
+      "rating": 4.0,
+      "inStock": true,
+      "stockQuantity": 35,
+      "description": "Bring life to your living room with this beautiful Fiddle Leaf Fig. It's low-maintenance, pet-friendly options available, and grows steadily with proper care, making it ideal for beginners and experts alike.",
+      "careGuide": {
+        "light": "Full sun to partial shade",
+        "water": "Water sparingly, drought tolerant",
+        "humidity": "Low humidity is fine",
+        "temperature": "18-30°C",
+        "difficulty": "Very Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Amina T.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Grace N.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 3,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 3,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        },
+        {
+          "reviewer": "James K.",
+          "rating": 5,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 52,
+      "name": "Boston Fern",
+      "category": "bed_room",
+      "price": 410.59,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": false,
+      "stockQuantity": 0,
+      "description": "This Boston Fern is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a bedroom, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Bright, indirect sunlight",
+        "water": "Water once a week, allow soil to dry between waterings",
+        "humidity": "Moderate humidity preferred",
+        "temperature": "18-27°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "David L.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Fatima A.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Chris P.",
+          "rating": 2,
+          "comment": "Took longer to settle in than expected, but it's recovering nicely now."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 5,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Sarah M.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-3.png"
+    },
+    {
+      "id": 53,
+      "name": "Snake Plant",
+      "category": "bed_room",
+      "price": 432.24,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 42,
+      "description": "Elevate the atmosphere of your bedroom with this elegant Snake Plant. Its vibrant green color and graceful shape make it a standout piece in any plant collection.",
+      "careGuide": {
+        "light": "Low to medium indirect light",
+        "water": "Water every 7-10 days",
+        "humidity": "Tolerates dry air",
+        "temperature": "15-24°C",
+        "difficulty": "Easy"
+      },
+      "reviews": [
+        {
+          "reviewer": "Yasmin R.",
+          "rating": 2,
+          "comment": "Plant arrived a little wilted, but customer service helped resolve the issue."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 4,
+          "comment": "Fast delivery and the plant was in excellent shape. Will definitely buy again."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Robert G.",
+          "rating": 5,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Youssef M.",
+          "rating": 4,
+          "comment": "Super easy to take care of and it's already growing new leaves. Highly recommend."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    },
+    {
+      "id": 54,
+      "name": "Norfolk Island Pine",
+      "category": "living_room",
+      "price": 673.72,
+      "currency": "EGP",
+      "rating": 4.7,
+      "inStock": true,
+      "stockQuantity": 16,
+      "description": "The Norfolk Island Pine is a timeless choice for home decor. With its unique leaf pattern and resilient nature, it's a great addition to your living room that requires only occasional watering.",
+      "careGuide": {
+        "light": "Partial shade to bright indirect light",
+        "water": "Water when top inch of soil is dry",
+        "humidity": "Moderate to high humidity",
+        "temperature": "18-25°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Great quality plant, well packaged, and the care instructions included were super helpful."
+        },
+        {
+          "reviewer": "Mona E.",
+          "rating": 4,
+          "comment": "Good quality but took a little while to adjust after arrival. Doing fine now."
+        },
+        {
+          "reviewer": "James K.",
+          "rating": 5,
+          "comment": "Arrived in perfect condition and looks even better than the photos. Very happy with this purchase!"
+        }
+      ],
+      "image": "products_imgs/plant-2.png"
+    },
+    {
+      "id": 55,
+      "name": "Parlor Palm",
+      "category": "living_room",
+      "price": 562.04,
+      "currency": "EGP",
+      "rating": 4.2,
+      "inStock": true,
+      "stockQuantity": 30,
+      "description": "This Parlor Palm is a favorite among plant lovers for its striking appearance and air-purifying qualities. Perfect for a living room, it adds a calming green presence to your space.",
+      "careGuide": {
+        "light": "Bright, filtered light, avoid direct sun",
+        "water": "Keep soil consistently moist",
+        "humidity": "High humidity recommended",
+        "temperature": "20-27°C",
+        "difficulty": "Moderate"
+      },
+      "reviews": [
+        {
+          "reviewer": "Emily R.",
+          "rating": 4,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        },
+        {
+          "reviewer": "Ahmed Z.",
+          "rating": 4,
+          "comment": "This plant transformed my room. Healthy, vibrant, and exactly as described."
+        },
+        {
+          "reviewer": "Daniel W.",
+          "rating": 4,
+          "comment": "Decent plant for the price, a couple of leaves had minor spots but otherwise healthy."
+        },
+        {
+          "reviewer": "Amina T.",
+          "rating": 5,
+          "comment": "Beautiful plant, great size for the price. My space feels so much more alive now."
+        }
+      ],
+      "image": "products_imgs/plant-1.png"
+    }
+  ]
+}

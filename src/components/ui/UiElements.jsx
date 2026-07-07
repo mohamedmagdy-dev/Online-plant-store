@@ -1,6 +1,9 @@
 //clsx
 import clsx from "clsx";
 
+// Icons
+import starIcon from "../../assets/icons/starIcon.png";
+
 export function Input({ placeHolder = "" }) {
   return (
     <div className="relative">
@@ -13,9 +16,10 @@ export function Input({ placeHolder = "" }) {
   );
 }
 
-export function RoundedButton({buttonIcon, altText, style = ""}) {
+export function RoundedButton({ buttonIcon, altText, style = "",onClick=()=>{} }) {
   return (
     <button
+    onClick={onClick}
       className={clsx(
         "cursor-pointer w-12.5 h-12.5 rounded-full bg-linear-to-r from-mint to-sky flex justify-center items-center",
         style,
@@ -26,7 +30,7 @@ export function RoundedButton({buttonIcon, altText, style = ""}) {
   );
 }
 
-export function CurvedButton({buttonContent ="", style = ""}) {
+export function CurvedButton({ buttonContent = "", style = "" }) {
   return (
     <button
       className={clsx(
@@ -36,5 +40,36 @@ export function CurvedButton({buttonContent ="", style = ""}) {
     >
       {buttonContent}
     </button>
+  );
+}
+
+export function Rate({ rate }) {
+  let result = [];
+
+  for (let i = 1; i <= Math.ceil(rate); i++) {
+    result.push(<img key={i} src={starIcon} alt="Star Icon" />);
+  }
+
+  return result;
+}
+
+export function PriceSlider({
+  min = 0,
+  max = 100,
+  step = 1,
+  value = 0,
+  style = "",
+  handleChange = () => {},
+}) {
+  return (
+    <input
+      className={clsx(style)}
+      type="range"
+      min={min}
+      max={max}
+      step={step}
+      value={value}
+      onChange={handleChange}
+    />
   );
 }

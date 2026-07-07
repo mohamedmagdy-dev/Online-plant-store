@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 
 // Page
 import Home from "./pages/Home";
+import Shop from "./pages/Shop";
 
 // Routing
 import { Routes, Route } from "react-router";
@@ -15,12 +16,13 @@ import { Routes, Route } from "react-router";
 import { useState } from "react";
 
 export default function App() {
-  const [headerTheme, setHeaderTheme] = useState("dark");
+  const [isHeaderTransparent, setIsHeaderTransparent] = useState(true);
   return (
     <>
-      <Header headerTheme={headerTheme} />
+      <Header isHeaderTransparent={isHeaderTransparent} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home setIsHeaderTransparent={setIsHeaderTransparent}/>} />
+        <Route path="/shop" element={<Shop setIsHeaderTransparent={setIsHeaderTransparent}/>} />
       </Routes>
       <Footer />
     </>
