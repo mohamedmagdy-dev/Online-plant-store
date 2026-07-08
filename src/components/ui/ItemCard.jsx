@@ -9,7 +9,7 @@ import { Link } from "react-router";
 
 // Redux
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../features/cart/cartSlicer";
+import { addToCart } from "../../features/cart/cartSlice";
 
 export default function ItemCard({
   rate = 5,
@@ -18,12 +18,11 @@ export default function ItemCard({
   plantImg,
   product = {},
 }) {
-
   const dispatch = useDispatch();
 
   const handleAddToCart = () => {
-    dispatch(addToCart(product))
-  }
+    dispatch(addToCart(product));
+  };
 
   return (
     <article className="h-158.5 w-full md:w-82.25 flex flex-col justify-between items-center  relative">
