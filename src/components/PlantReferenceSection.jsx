@@ -1,7 +1,7 @@
 // imgs
-import LivingRoomImg from "../assets/imgs/living-room.png";
-import GuestRoomImg from "../assets/imgs/guest-room.png";
-import BedRoomImg from "../assets/imgs/bed-room.png";
+import LivingRoomImg from "../assets/imgs/living-room.webp";
+import GuestRoomImg from "../assets/imgs/guest-room.webp";
+import BedRoomImg from "../assets/imgs/bed-room.webp";
 
 // React router
 import { Link } from "react-router";

@@ -1,11 +1,11 @@
 // imgs
-import SideImg from "../assets/imgs/plants-care-img.png";
+import SideImg from "../assets/imgs/plants-care-img.webp";
 
 // Icons
-import AkarWaterIcon from "../assets/icons/akar-icons_water.png";
-import CharmPlantPot from "../assets/icons/charm_plant-pot.png";
-import ParkOutlineSun from "../assets/icons/icon-park-outline_sun.png";
-import TablerTemperatureIcon from "../assets/icons/tabler_temperature.png";
+import AkarWaterIcon from "../assets/icons/akar-icons_water.webp";
+import CharmPlantPot from "../assets/icons/charm_plant-pot.webp";
+import ParkOutlineSun from "../assets/icons/icon-park-outline_sun.webp";
+import TablerTemperatureIcon from "../assets/icons/tabler_temperature.webp";
 
 export default function PlantsCareSection() {
   return (

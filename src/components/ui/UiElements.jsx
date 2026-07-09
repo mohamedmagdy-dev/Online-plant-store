@@ -2,7 +2,7 @@
 import clsx from "clsx";
 
 // Icons
-import starIcon from "../../assets/icons/starIcon.png";
+import starIcon from "../../assets/icons/starIcon.webp";
 
 export function Input({ placeHolder = "" }) {
   return (
@@ -16,10 +16,15 @@ export function Input({ placeHolder = "" }) {
   );
 }
 
-export function RoundedButton({ buttonIcon, altText, style = "",onClick=()=>{} }) {
+export function RoundedButton({
+  buttonIcon,
+  altText,
+  style = "",
+  onClick = () => {},
+}) {
   return (
     <button
-    onClick={onClick}
+      onClick={onClick}
       className={clsx(
         "cursor-pointer w-12.5 h-12.5 rounded-full bg-linear-to-r from-mint to-sky flex justify-center items-center",
         style,
@@ -30,10 +35,14 @@ export function RoundedButton({ buttonIcon, altText, style = "",onClick=()=>{} }
   );
 }
 
-export function CurvedButton({ buttonContent = "", style = "", onClick=()=>{} }) {
+export function CurvedButton({
+  buttonContent = "",
+  style = "",
+  onClick = () => {},
+}) {
   return (
     <button
-    onClick={onClick}
+      onClick={onClick}
       className={clsx(
         "cursor-pointer h-11.75 rounded-[50px] text-[20px] text-center px-6 py-3 text-white bg-linear-to-r from-mint to-sky flex justify-center items-center",
         style,

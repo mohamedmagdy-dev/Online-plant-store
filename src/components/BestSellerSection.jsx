@@ -5,9 +5,9 @@ import { Link } from "react-router";
 import rightArrow from "../assets/icons/right-arrow.svg";
 
 // imgs
-import plantImg1 from "../assets/imgs/plant-1.png"
-import plantImg2 from "../assets/imgs/plant-2.png"
-import plantImg3 from "../assets/imgs/plant-3.png"
+import plantImg1 from "../assets/imgs/plant-1.webp";
+import plantImg2 from "../assets/imgs/plant-2.webp";
+import plantImg3 from "../assets/imgs/plant-3.webp";
 
 // Components
 import ItemCard from "./ui/ItemCard";
@@ -21,15 +21,33 @@ export default function BestSellerSection() {
             Best Seller
             <br /> Product
           </h2>
-          <Link to="/best-seller-items" className="text-gray-dark flex gap-5 font-medium">
+          <Link
+            to="/best-seller-items"
+            className="text-gray-dark flex gap-5 font-medium"
+          >
             See all collection
             <img src={rightArrow} alt="right Arrow" width={20} height={21} />
           </Link>
         </div>
         <div className="cards flex gap-8 flex-wrap justify-center">
-          <ItemCard  rate="5" title = "Chrysanthemum" price="140.34" plantImg={plantImg1} />
-          <ItemCard  rate="2" title = "Bougainvillea" price="990.7" plantImg={plantImg2} />
-          <ItemCard  rate="3" title = "Eucalyptus" price="10.66" plantImg={plantImg3} />
+          <ItemCard
+            rate="5"
+            title="Chrysanthemum"
+            price="140.34"
+            plantImg={plantImg1}
+          />
+          <ItemCard
+            rate="2"
+            title="Bougainvillea"
+            price="990.7"
+            plantImg={plantImg2}
+          />
+          <ItemCard
+            rate="3"
+            title="Eucalyptus"
+            price="10.66"
+            plantImg={plantImg3}
+          />
         </div>
       </div>
     </section>

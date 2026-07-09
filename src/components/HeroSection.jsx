@@ -1,9 +1,8 @@
 // img
-import roomBg from "../assets/imgs/modern-living-roombackground.jpg";
+import roomBg from "../assets/imgs/modern-living-roombackground.webp";
 
 // Icons
 import searchIcon from "../assets/icons/searchIcon.svg";
-
 
 //UI Elements
 import { Input, RoundedButton } from "./ui/UiElements";

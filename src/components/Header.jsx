@@ -1,7 +1,7 @@
 // Icons
-import mobileMenuIcon from "../assets/icons/mobileMenuIcon.png";
+import mobileMenuIcon from "../assets/icons/mobileMenuIcon.webp";
 import bagIconLight from "../assets/icons/bagLight.svg";
-import cancelIcon from "../assets/icons/cancel.png";
+import cancelIcon from "../assets/icons/cancel.webp";
 
 // imgs
 import storeLogoLight from "../assets/imgs/storeLogoLight.svg";
@@ -18,7 +18,6 @@ import clsx from "clsx";
 //redux
 import { useSelector } from "react-redux";
 
-
 const activeNavLink = ({ isActive }) => {
   return clsx(
     isActive
@@ -31,7 +30,9 @@ export default function Header() {
   const [isMobileNavClose, setIsMobileNavClose] = useState(true);
 
   const productQuantity = useSelector((state) => state.cart.quantity);
-  const isHeaderTransparent = useSelector((state) => state.appTheme.headerTransparent);
+  const isHeaderTransparent = useSelector(
+    (state) => state.appTheme.headerTransparent,
+  );
 
   return (
     <header
