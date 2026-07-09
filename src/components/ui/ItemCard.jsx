@@ -10,7 +10,13 @@ import { Link } from "react-router";
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/cartSlice";
-import { addToWishlist } from "../../features/wishlist/wishlistSlice";
+import {
+  addToWishlist,
+  removeFromWishlist,
+} from "../../features/wishlist/wishlistSlice";
+
+// Toast
+import toast from "react-hot-toast";
 
 export default function ItemCard({
   rate = 5,
@@ -25,22 +31,38 @@ export default function ItemCard({
 
   const handleAddToCart = () => {
     dispatch(addToCart(product));
+    toast.success("Product added to cart!");
   };
 
   const handleToggleWishlist = (e) => {
     e.preventDefault();
-    dispatch(addToWishlist(product));
+    if (isInWishlist) {
+      dispatch(removeFromWishlist(product));
+      toast.success("Product removed from wishlist!");
+    } else {
+      dispatch(addToWishlist(product));
+      toast.success("Product added to wishlist!");
+    }
   };
 
   return (
     <article className="h-158.5 w-full md:w-82.25 flex flex-col justify-between items-center relative">
       <Link className="relative w-full flex justify-center">
         <img src={plantImg} alt={title + " plant"} width={325} height={333} />
-        <button 
+        <button
           onClick={handleToggleWishlist}
           className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors cursor-pointer"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill={isInWishlist ? "#2af598" : "none"} stroke={isInWishlist ? "#009efd" : "currentColor"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill={isInWishlist ? "#2af598" : "none"}
+            stroke={isInWishlist ? "#009efd" : "currentColor"}
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
           </svg>
         </button>

@@ -7,13 +7,17 @@ import { clearWishlist } from "../features/wishlist/wishlistSlice";
 import ItemCard from "../components/ui/ItemCard";
 import { CurvedButton } from "../components/ui/UiElements";
 
+// Toast
+import toast from "react-hot-toast";
+
 export default function Wishlist({ setIsHeaderTransparent }) {
   const wishlistItems = useSelector((state) => state.wishlist.products);
   const dispatch = useDispatch();
 
   // Handle Clear Wishlist
   const handleClearWishlist = () => {
-    dispatch(clearWishlist())
+    dispatch(clearWishlist());
+    toast.success("wishlist cleared")
   };
 
   useEffect(() => {
