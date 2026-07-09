@@ -15,45 +15,23 @@ import Cart from "./pages/Cart";
 // Routing
 import { Routes, Route } from "react-router";
 
-// React
-import { useState } from "react";
-
 // Toast
 import { Toaster } from "react-hot-toast";
 
 export default function App() {
-  const [isHeaderTransparent, setIsHeaderTransparent] = useState(true);
   return (
     <>
       <Toaster position="bottom-right" toastOptions={{ duration: 1500 }} />
 
       <Routes>
-        <Route
-          element={<MainLayout isHeaderTransparent={isHeaderTransparent} />}
-        >
-          <Route
-            path="/"
-            element={<Home setIsHeaderTransparent={setIsHeaderTransparent} />}
-          />
-          <Route
-            path="/shop"
-            element={<Shop setIsHeaderTransparent={setIsHeaderTransparent} />}
-          />
-          <Route
-            path="/wishlist"
-            element={
-              <Wishlist setIsHeaderTransparent={setIsHeaderTransparent} />
-            }
-          />
-          <Route
-            path="/about-us"
-            element={
-              <AboutUs setIsHeaderTransparent={setIsHeaderTransparent} />
-            }
-          />
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
-        <Route path="/cart" element={<Cart/>} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
   );

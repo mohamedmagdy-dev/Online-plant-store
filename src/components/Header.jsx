@@ -27,10 +27,11 @@ const activeNavLink = ({ isActive }) => {
   );
 };
 
-export default function Header({isHeaderTransparent }) {
+export default function Header() {
   const [isMobileNavClose, setIsMobileNavClose] = useState(true);
 
   const productQuantity = useSelector((state) => state.cart.quantity);
+  const isHeaderTransparent = useSelector((state) => state.appTheme.headerTransparent);
 
   return (
     <header

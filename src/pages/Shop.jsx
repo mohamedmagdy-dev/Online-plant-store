@@ -9,8 +9,9 @@ import Pagination from "../components/ui/Pagination";
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProductsData } from "../features/products/productsSlice";
+import { toggleHeaderTheme } from "../features/theme/themeSlice";
 
-export default function Shop({ setIsHeaderTransparent }) {
+export default function Shop() {
   const dispatch = useDispatch();
   const { products, loading, error } = useSelector((state) => state.products);
   const { category, minPrice, maxPrice, rating } = useSelector(
@@ -30,8 +31,8 @@ export default function Shop({ setIsHeaderTransparent }) {
   // Fetch Products Data
   useEffect(() => {
     dispatch(fetchProductsData("/Api/products.json"));
-    setIsHeaderTransparent(false);
-  }, [dispatch, setIsHeaderTransparent]);
+    dispatch(toggleHeaderTheme(false));
+  }, [dispatch]);
 
   // Filter Products
   const filteredProducts = useMemo(() => {

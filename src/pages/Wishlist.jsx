@@ -2,6 +2,7 @@ import { useEffect } from "react";
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { clearWishlist } from "../features/wishlist/wishlistSlice";
+import { toggleHeaderTheme } from "../features/theme/themeSlice";
 
 // Components
 import ItemCard from "../components/ui/ItemCard";
@@ -10,7 +11,7 @@ import { CurvedButton } from "../components/ui/UiElements";
 // Toast
 import toast from "react-hot-toast";
 
-export default function Wishlist({ setIsHeaderTransparent }) {
+export default function Wishlist() {
   const wishlistItems = useSelector((state) => state.wishlist.products);
   const dispatch = useDispatch();
 
@@ -21,8 +22,8 @@ export default function Wishlist({ setIsHeaderTransparent }) {
   };
 
   useEffect(() => {
-    setIsHeaderTransparent(false);
-  }, [setIsHeaderTransparent]);
+    dispatch(toggleHeaderTheme(false));
+  }, [dispatch]);
 
   return (
     <main className="py-35">
