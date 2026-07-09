@@ -8,8 +8,9 @@ import { RoundedButton, Rate } from "./UiElements";
 import { Link } from "react-router";
 
 // Redux
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/cartSlice";
+import { addToWishlist } from "../../features/wishlist/wishlistSlice";
 
 export default function ItemCard({
   rate = 5,
@@ -19,17 +20,32 @@ export default function ItemCard({
   product = {},
 }) {
   const dispatch = useDispatch();
+  const wishlistItems = useSelector((state) => state.wishlist.products);
+  const isInWishlist = wishlistItems.some((item) => item.id === product.id);
 
   const handleAddToCart = () => {
     dispatch(addToCart(product));
   };
 
+  const handleToggleWishlist = (e) => {
+    e.preventDefault();
+    dispatch(addToWishlist(product));
+  };
+
   return (
-    <article className="h-158.5 w-full md:w-82.25 flex flex-col justify-between items-center  relative">
-      <Link>
+    <article className="h-158.5 w-full md:w-82.25 flex flex-col justify-between items-center relative">
+      <Link className="relative w-full flex justify-center">
         <img src={plantImg} alt={title + " plant"} width={325} height={333} />
+        <button 
+          onClick={handleToggleWishlist}
+          className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors cursor-pointer"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill={isInWishlist ? "#2af598" : "none"} stroke={isInWishlist ? "#009efd" : "currentColor"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </button>
       </Link>
-      <div className="cardActions w-full h-65 p-9.5 bg-white rounded-[50px]  flex flex-col justify-between drop-shadow-[0_7px_7px_#00000040] mt-10">
+      <div className="cardActions w-full h-65 p-9.5 bg-white rounded-[50px] flex flex-col justify-between drop-shadow-[0_7px_7px_#00000040] mt-10">
         <div>
           <Link>
             <h3 className="text-abyss text-[32px] font-medium mb-1.75 truncate">

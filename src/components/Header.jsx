@@ -63,8 +63,8 @@ export default function Header({isHeaderTransparent }) {
           <NavLink className={activeNavLink} to="/about-us">
             About Us
           </NavLink>
-          <NavLink className={activeNavLink} to="/contact">
-            Contact
+          <NavLink className={activeNavLink} to="/wishlist">
+            Wishlist
           </NavLink>
         </nav>
         <Link to="/cart" className="md:ml-21.5 lg:ml-0 relative">
@@ -126,12 +126,12 @@ export default function Header({isHeaderTransparent }) {
         </NavLink>
         <NavLink
           className={"pt-5 pb-5 w-full text-center"}
-          to="/contact"
+          to="/wishlist"
           onClick={() => {
             setIsMobileNavClose(true);
           }}
         >
-          Contact
+          Wishlist
         </NavLink>
       </nav>
     </header>

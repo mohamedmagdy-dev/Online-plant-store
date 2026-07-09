@@ -30,9 +30,10 @@ export function RoundedButton({ buttonIcon, altText, style = "",onClick=()=>{} }
   );
 }
 
-export function CurvedButton({ buttonContent = "", style = "" }) {
+export function CurvedButton({ buttonContent = "", style = "", onClick=()=>{} }) {
   return (
     <button
+    onClick={onClick}
       className={clsx(
         "cursor-pointer h-11.75 rounded-[50px] text-[20px] text-center px-6 py-3 text-white bg-linear-to-r from-mint to-sky flex justify-center items-center",
         style,

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 // Page
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
+import Wishlist from "./pages/Wishlist";
 
 // Routing
 import { Routes, Route } from "react-router";
@@ -23,6 +24,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home setIsHeaderTransparent={setIsHeaderTransparent}/>} />
         <Route path="/shop" element={<Shop setIsHeaderTransparent={setIsHeaderTransparent}/>} />
+        <Route path="/wishlist" element={<Wishlist setIsHeaderTransparent={setIsHeaderTransparent}/>} />
       </Routes>
       <Footer />
     </>
