@@ -1,18 +1,29 @@
 // React Router
 import { Link } from "react-router";
+import { useEffect } from "react";
 
 // icons
 import rightArrow from "../assets/icons/right-arrow.svg";
 
-// imgs
-import plantImg1 from "../assets/imgs/plant-1.webp";
-import plantImg2 from "../assets/imgs/plant-2.webp";
-import plantImg3 from "../assets/imgs/plant-3.webp";
-
 // Components
 import ItemCard from "./ui/ItemCard";
 
+// Redux
+import { useDispatch, useSelector } from "react-redux";
+import { fetchProductsData } from "../features/products/productsSlice";
+
 export default function BestSellerSection() {
+  const dispatch = useDispatch();
+  const { products, loading } = useSelector((state) => state.products);
+
+  useEffect(() => {
+    if (products.length === 0) {
+      dispatch(fetchProductsData("/Api/products.json"));
+    }
+  }, [dispatch, products.length]);
+
+  const bestSellers = products.slice(0, 3);
+
   return (
     <section className="pb-35">
       <div className="container px-4 flex gap-9.5 justify-center 2xl:justify-between items-center flex-wrap">
@@ -21,33 +32,22 @@ export default function BestSellerSection() {
             Best Seller
             <br /> Product
           </h2>
-          <Link
-            to="/best-seller-items"
-            className="text-gray-dark flex gap-5 font-medium"
-          >
+          <Link to="/shop" className="text-gray-dark flex gap-5 font-medium">
             See all collection
             <img src={rightArrow} alt="right Arrow" width={20} height={21} />
           </Link>
         </div>
-        <div className="cards flex gap-8 flex-wrap justify-center">
-          <ItemCard
-            rate="5"
-            title="Chrysanthemum"
-            price="140.34"
-            plantImg={plantImg1}
-          />
-          <ItemCard
-            rate="2"
-            title="Bougainvillea"
-            price="990.7"
-            plantImg={plantImg2}
-          />
-          <ItemCard
-            rate="3"
-            title="Eucalyptus"
-            price="10.66"
-            plantImg={plantImg3}
-          />
+        <div className="cards flex gap-8 flex-wrap justify-center min-h-[400px] items-center">
+          {bestSellers.map((product) => (
+            <ItemCard
+              key={product.id}
+              rate={product.rating}
+              title={product.name}
+              price={product.price}
+              plantImg={product.image}
+              product={product}
+            />
+          ))}
         </div>
       </div>
     </section>

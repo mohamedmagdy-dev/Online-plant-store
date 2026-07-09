@@ -6,13 +6,13 @@ import PlantReferenceSection from "../components/PlantReferenceSection";
 import PlantsCareSection from "../components/PlantsCareSection";
 
 //react
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { useDispatch } from "react-redux";
 import { toggleHeaderTheme } from "../features/theme/themeSlice";
 
 export default function Home() {
   const dispatch = useDispatch();
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch(toggleHeaderTheme(true));
   }, [dispatch]);  return (
     <main>

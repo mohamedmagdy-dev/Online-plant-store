@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { clearWishlist } from "../features/wishlist/wishlistSlice";
@@ -21,7 +21,7 @@ export default function Wishlist() {
     toast.success("wishlist cleared")
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch(toggleHeaderTheme(false));
   }, [dispatch]);
 

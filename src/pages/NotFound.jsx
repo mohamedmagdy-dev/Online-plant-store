@@ -1,11 +1,11 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { useDispatch } from "react-redux";
 import { toggleHeaderTheme } from "../features/theme/themeSlice";
 
 export default function NotFound() {
   const dispatch = useDispatch();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch(toggleHeaderTheme(false));
   }, [dispatch]);
 

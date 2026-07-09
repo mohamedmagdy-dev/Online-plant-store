@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router";
 import { toggleHeaderTheme } from "../features/theme/themeSlice";
@@ -10,7 +10,7 @@ export default function Cart() {
   const dispatch = useDispatch();
   const { products, totalPrice } = useSelector((state) => state.cart);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch(toggleHeaderTheme(false));
   }, [dispatch]);
 

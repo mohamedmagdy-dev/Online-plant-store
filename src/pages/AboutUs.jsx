@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { useDispatch } from "react-redux";
 import { toggleHeaderTheme } from "../features/theme/themeSlice";
 import BenefitSection from "../components/BenefitSection";
@@ -7,7 +7,7 @@ import aboutImg from "../assets/imgs/about-us-bg.webp";
 
 export default function AboutUs() {
   const dispatch = useDispatch();
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch(toggleHeaderTheme(true));
   }, [dispatch]);
 

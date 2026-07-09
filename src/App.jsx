@@ -4,13 +4,16 @@ import "./styles/App.css";
 // Components
 import MainLayout from "./components/MainLayout";
 
-// Page
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import Wishlist from "./pages/Wishlist";
-import AboutUs from "./pages/AboutUs";
-import NotFound from "./pages/NotFound";
-import Cart from "./pages/Cart";
+// React
+import { lazy } from "react";
+
+// Page (Lazy Loaded)
+const Home = lazy(() => import("./pages/Home"));
+const Shop = lazy(() => import("./pages/Shop"));
+const Wishlist = lazy(() => import("./pages/Wishlist"));
+const AboutUs = lazy(() => import("./pages/AboutUs"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const Cart = lazy(() => import("./pages/Cart"));
 
 // Routing
 import { Routes, Route } from "react-router";

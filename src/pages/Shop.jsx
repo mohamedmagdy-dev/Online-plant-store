@@ -1,10 +1,11 @@
 // React
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useState } from "react";
 
 // Components
 import ProductsFilter from "../components/ProductsFilter";
 import ProductsCard from "../components/ui/ItemCard";
 import Pagination from "../components/ui/Pagination";
+import Loader from "../components/ui/Loader";
 
 // Redux
 import { useDispatch, useSelector } from "react-redux";
@@ -29,7 +30,7 @@ export default function Shop() {
   }, [category, rating, minPrice, maxPrice]);
 
   // Fetch Products Data
-  useEffect(() => {
+  useLayoutEffect(() => {
     dispatch(fetchProductsData("/Api/products.json"));
     dispatch(toggleHeaderTheme(false));
   }, [dispatch]);
@@ -64,11 +65,7 @@ export default function Shop() {
 
   // Handel Products Loading
   if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[50vh] text-abyss text-2xl font-semibold">
-        Loading...
-      </div>
-    );
+    return <Loader />;
   }
 
   return (
