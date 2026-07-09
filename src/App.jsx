@@ -30,8 +30,8 @@ export default function App() {
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/cart" element={<Cart />} />
         </Route>
-        <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
   );
