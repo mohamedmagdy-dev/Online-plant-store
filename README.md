@@ -50,7 +50,6 @@ The application is built with **React 19**, powered by **Redux Toolkit** for sca
 |-----------|---------------|
 | ![Cart Page Screenshot](./public/screenshots/b4.webp) | ![Wishlist Screenshot](./public/screenshots/b2.webp) |
 
-> 📸 *Add your screenshots to `public/screenshots/` and update the paths above.*
 
 ---
 
